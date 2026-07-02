@@ -1,0 +1,17 @@
+seed: 2023
+batch_size: 12
+data: Ross
+model: dozerformer_Linear
+moving_avg: 13, 17
+seq_len: 1440
+label_len: 96
+pred_len: 288
+embed_dim: 8
+lr: 5e-5
+patch_size: 24
+local_window: 2
+stride: 4
+vary_len: 1
+mask: dozer
+patch_thres: 1
+wandb: false
